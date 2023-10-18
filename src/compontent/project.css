@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    border-radius: 12px;
+    border: 25px solid darkviolet;
+    width: 60%;
+}
+
+.btn-tier {
+    background-color: blueviolet;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 16px;
+    position: relative;
+}
+.active {
+    background-color: darkviolet; 
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 16px;
+    position: relative;
+    border-radius: 12px;
+}
+.typesofpaper{
+    width: 50%;
+    height: 25px;
+    border-radius: 12px;
+}
+.deadline{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 44%;
+}
+
+.btns-headers{
+    display: flex;
+}
+.row-3 {
+    margin-left: -387px;
+  margin-top: 11px;
+}
+.row-2{
+    margin-left: -167px;
+    margin-top: 11px;  
+}
+.row-1{
+    margin-left: 0px;
+    margin-top: 11px;
+}
+.btn-proceed{
+    background-color: orange;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 16px;
+    display: flex;
+  float: right;
+
+}
